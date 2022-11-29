@@ -1,0 +1,28 @@
+body{
+    display: flex;
+   justify-content: center;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    border: black solid;
+    width: 50%;
+    padding: 1rem;
+
+}
+
+ul>li{
+    padding: 0.5rem;
+    font-size: larger;
+}
+
+
+#root > a> button{
+    background-color: rgb(139, 178, 255);
+    width: 30rem;
+    height: 5rem;
+    font-size:x-large;
+    color: blue;
+}
